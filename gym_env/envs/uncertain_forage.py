@@ -107,7 +107,7 @@ class UncertainForageEnv(gym.Env):
 
             reward = 0
 
-        #Include time checks to end game
+        #Include time checks to end game k
         if (time.time() - self.start_time >= self.block_duration):
             self.done = 1
         
